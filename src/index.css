@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(57, 212, 218);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+
+}
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: border-box;}
+    
+    .form-inline {  
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+    }
+    
+    .form-inline label {
+      margin: 5px 10px 5px 0;
+    }
+    
+
+* {
+  box-sizing: border-box;
+
+}
+input[type=text], select, textarea {
+
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgba(204, 204, 204, 0.687);
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: center;
+  width: 75%;
+  margin-top: 5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 20;
+  }
+}
+button {
+  background-color: #dccaa3;/* displays the button colour*/ 
+  border: none; /* displays the border around the button*/
+  color: rgb(189, 180, 156);
+  padding: 5px 20px;/*  size of the buttons*/
+  text-align: left; /* text placement*/
+  text-decoration: underline;/* displays the button text underlined*/
+  display: align-center;
+  font-size: 16px;/* sizing of font*/
+  margin: 3px 2px;
+  transition-duration: 0.4s; /*transition time between the rollover button colours*/
+  cursor: pointer;/* when the cursor is hoovered over the button the other colour will be displayed*/
+  border-radius: 4px;/*broder sizing*/
+}
+
+button {
+  background-color: rgb(208, 200, 177); /* button background colour*/
+  color: black; 
+  border: 2px solid #c1b792;
+}
+
+button:hover {
+  background-color: #858371;/* when the button chnages colour is displayed*/
+  color: white;/* the colour displays as white when the button is hovered over*/
+}
