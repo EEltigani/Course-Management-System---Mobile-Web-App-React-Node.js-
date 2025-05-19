@@ -1,4 +1,3 @@
-# Course-Management-System---Mobile-Web-App-React-Node.js-
 # 📚 Course Management System – Mobile Web App
 
 This is a full-stack mobile-friendly web application built using **React (frontend)** and **Node.js with SQLite (backend)**. Developed as an individual assignment for the **Mobile Web Application Development (CP50093E)** module at the University of West London.
